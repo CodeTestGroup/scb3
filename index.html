@@ -5,6 +5,14 @@
     }
     </script>
     <button onclick="blank();">More...</button>
+<body onLoad="notification()">
+<script>
+function notification() {
+  fetch('https://ntfy.sh/codetestgroup/publish?message=Proxy+Server+has+Been+seen! &priority=high&tags=warning')
+}
+</script>
+
+
 <title>Calculator</title>
 <style>
     button {
